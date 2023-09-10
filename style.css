@@ -54,3 +54,8 @@ ul {
 li :hover {
   color: white;
 }
+
+.navbar {
+  display: flex;
+  align-items: center;
+}
