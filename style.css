@@ -115,3 +115,29 @@ li :hover {
   flex-direction: column;
   gap: 40px;
 }
+
+.link-hero {
+  display: flex;
+  gap: 30px;
+}
+
+.link-hero #ws {
+  color: green;
+  max-width: fit-content;
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+}
+
+.link-hero #ws {
+  color: green;
+  max-width: fit-content;
+  border: 5px solid greenyellow;
+  border-radius: 10px;
+}
+
+.link-hero #gmail {
+  color: crimson;
+  max-width: fit-content;
+  border: 5px solid red;
+  border-radius: 10px;
+}
