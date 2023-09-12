@@ -59,3 +59,59 @@ li :hover {
   display: flex;
   align-items: center;
 }
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffff;
+  padding: 7px 0;
+  margin-top: 65px;
+}
+
+.hero-info {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 30px;
+}
+
+.hero-info h1 {
+  width: 50%;
+  min-width: 500px;
+}
+
+.hero-info p {
+  width: 70%;
+  min-width: 500px;
+}
+
+.hero-card {
+  display: flex;
+  background-color: cadetblue;
+  border-radius: 20px;
+  margin: 4rem;
+}
+
+.hero-card img {
+  width: 400px;
+}
+
+#page-info {
+  display: flex;
+  margin: 3rem;
+  color: #ffff;
+}
+
+#page-info h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-page {
+  display: flex;
+  padding: 70px 0;
+  flex-direction: column;
+  gap: 40px;
+}
