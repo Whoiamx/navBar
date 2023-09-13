@@ -122,9 +122,9 @@ li :hover {
 }
 
 .link-hero #ws {
-  background-color: green;
+  background-color: #283e51;
   max-width: fit-content;
-  border: 2px solid greenyellow;
+  border: 2px solid #9b546c;
   border-radius: 10px;
   color: white;
   padding: 5px;
