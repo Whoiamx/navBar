@@ -1,0 +1,104 @@
+/* ---------------------- RESOLUCION TABLE IPAD PRO 11 ---------------------- */
+
+@media (max-width: 834px) {
+  .hero-section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+    max-width: 834px;
+    font-size: 21px;
+  }
+
+  .hero-section img {
+    display: none;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    margin-top: 3rem;
+    flex-direction: column;
+  }
+  .navbar {
+    max-width: 100%;
+    padding-left: 120px;
+  }
+
+  .navbar-items a {
+    font-size: 18px;
+  }
+
+  .navbar-logo {
+    margin-left: 0;
+    margin-top: 0;
+    padding: 0;
+  }
+
+  .contact-page {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact {
+    min-width: 100%;
+  }
+
+  #map {
+    display: none;
+  }
+
+  .cards-landing {
+    flex-direction: column;
+  }
+
+  .hero-info {
+    justify-content: center;
+    align-items: center;
+    min-width: 80%;
+    gap: 100px;
+  }
+
+  .hero-info h1 {
+    min-width: 80%;
+  }
+
+  .info-page {
+    font-size: 19px;
+    max-width: 90%;
+  }
+
+  .card-one p,
+  .card-two p,
+  .card-three p {
+    font-size: 19px;
+  }
+
+  .card-one h4,
+  .card-two h4,
+  .card-three h4 {
+    font-size: 19px;
+  }
+}
+
+/* ------------------------ RESOLUCION PARA IPHONE 11 ----------------------- */
+
+@media (max-width: 414px) {
+  * {
+    font-size: 2vh;
+  }
+
+  .card-one,
+  .card-two,
+  .card-three {
+    max-width: 70%;
+  }
+
+  .contact-page {
+    border: 0;
+  }
+
+  .footer-page p {
+    font-size: 14px;
+  }
+}

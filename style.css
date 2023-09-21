@@ -113,6 +113,7 @@ li :hover {
   gap: 40px;
   padding: 45px;
   font-size: 17px;
+  max-width: 1200px;
 }
 
 #page-info h2 {
@@ -146,7 +147,6 @@ li :hover {
 
 .cards-info {
   display: flex;
-  flex-direction: column;
   color: white;
   justify-content: center;
   align-items: center;
@@ -210,6 +210,9 @@ li :hover {
 /* ------------------------------ CONTACT PAGE ------------------------------ */
 
 .contact-page {
+  display: flex;
+  align-items: center;
+  gap: 80px;
   background-color: #283e51;
   max-width: 100%;
   color: white;
@@ -217,10 +220,18 @@ li :hover {
   border: 1px solid #e11d48;
 }
 
+.contact-page img {
+  display: flex;
+  align-self: center;
+  width: 427px;
+  height: 367px;
+}
+
 .contact {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  max-width: 1000px;
 }
 
 .contact h5 {
