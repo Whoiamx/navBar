@@ -94,6 +94,12 @@
     max-width: 70%;
   }
 
+  .card-one p,
+  .card-two p,
+  .card-three p {
+    font-size: 14px;
+  }
+
   .contact-page {
     border: 0;
   }
