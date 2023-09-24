@@ -158,4 +158,8 @@
   h3 {
     font-size: 22px;
   }
+
+  .navbar {
+    display: none;
+  }
 }

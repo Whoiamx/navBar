@@ -43,8 +43,21 @@ a {
   padding-right: 120px;
 }
 
-ul {
+.navbar-items li {
   list-style: none;
+}
+
+.navbar i {
+  font-size: 36px;
+  display: none;
+}
+
+#toggle-menu ul {
+  display: none;
+}
+
+.navbar-link {
+  text-decoration: none;
 }
 
 .logo-nav {
